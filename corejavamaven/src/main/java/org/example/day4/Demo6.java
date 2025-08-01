@@ -3,7 +3,7 @@ import java.util.*;
 public class Demo6 {
     public static void main(String[] args) {
 //        ArrayList<Integer> obj1=new ArrayList<>(); //Tightly coupled
-        List<Integer> obj1=new ArrayList<>();
+        List<Integer> obj1=new LinkedList<>();
         obj1.add(10);
         obj1.add(20);
         obj1.add(30);
