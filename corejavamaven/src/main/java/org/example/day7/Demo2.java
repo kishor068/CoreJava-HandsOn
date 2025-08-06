@@ -17,11 +17,13 @@ public class Demo2 {
         String s1;
         while ((s1=ReadBuffer.readFile(fr))!=null){
             String[] s2=s1.split(",");
-            ReadBuffer.writeSCR(s1);
+//            ReadBuffer.writeSCR(s1);
             int sum=0;
+
             for (String x:s2){
                 sum=sum+Integer.parseInt(x);
             }
+
             ReadBuffer.writeFile(s1+"="+sum,fw);
             fw.newLine();
         }
