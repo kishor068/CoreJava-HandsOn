@@ -7,7 +7,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
-public class Assignment5 {
+class Assignment5 {
     public static void main(String[] args) {
         try{
             File input = new File("C:\\Users\\Administrator\\IdeaProjects\\corejavamaven\\src\\main\\java\\org\\example\\Assignment\\Akio Morita San.jpg");
